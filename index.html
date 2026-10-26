@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FreshMart Grocery Store | Fresh Groceries, Delivered</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container bar">
+    <a href="#home" class="logo">
+      <svg viewBox="0 0 48 48" width="42" height="42" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#14532d"/><path d="M12 22h24l-3 14H15z" fill="#fff"/><path d="M24 20c0-7 4-10 10-10 0 7-3 10-10 10z" fill="#86efac"/><path d="M24 20c0-5-3-8-8-8 0 5 3 8 8 8z" fill="#4ade80"/></svg>
+      <span>Fresh<b>Mart</b></span>
+    </a>
+    <form class="search" role="search">
+      <input type="search" placeholder="Search for fruits, vegetables, rice…" aria-label="Search products">
+      <button type="button">Search</button>
+    </form>
+    <div class="actions">
+      <a href="#products" class="cart" aria-label="Shopping cart">🛒<span class="badge">0</span></a>
+      <a href="#contact" class="btn btn-ghost small">Login</a>
+      <a href="#contact" class="btn small">Sign Up</a>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container">
+      <a href="#home">Home</a><a href="#categories">Categories</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="pill">Farm-fresh, every single day</p>
+      <h1>Fresh Groceries, Delivered to Your Door!</h1>
+      <p>Hand-picked fruits and vegetables, daily staples and household essentials at fair prices. Quality you can see, convenience your family will love.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn">Shop Now</a>
+        <a href="#categories" class="btn btn-ghost">Explore Categories</a>
+      </div>
+      <ul class="hero-stats"><li><b>5,000+</b> products</li><li><b>Same-day</b> delivery</li><li><b>4.8★</b> rated</li></ul>
+    </div>
+    <div class="hero-art">
+      <img class="h1" src="images/grapefruit.png" alt="Fresh grapefruit with a juicy cut half">
+      <img class="h2" src="images/kiwi.png" alt="Fresh kiwi fruit and slice">
+      <img class="h3" src="images/apple.png" alt="Fresh green apple">
+      <img class="h4" src="images/banana.png" alt="Ripe peeled banana">
+    </div>
+  </div>
+</section>
+
+<section id="categories" class="section">
+  <div class="container">
+    <div class="head"><h2>Shop by Category</h2><p>Everything your kitchen and home need, in one place.</p></div>
+    <div class="cat-grid">
+      <a href="#products" class="cat"><img class="cut" src="images/mango.png" alt="Fresh ripe mango with a slice"><h3>Fresh Fruits</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img class="cut" src="images/broccoli.png" alt="Fresh green broccoli"><h3>Vegetables</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/rice?lock=23" alt="Rice and grains"><h3>Rice &amp; Grains</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/cheese?lock=24" alt="Dairy products"><h3>Dairy Products</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/snacks?lock=25" alt="Snacks and biscuits"><h3>Snacks &amp; Biscuits</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/soda?lock=26" alt="Cold drinks"><h3>Cold Drinks</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/bakery?lock=27" alt="Fresh bakery products"><h3>Bakery Products</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/cleaning?lock=28" alt="Household cleaning essentials"><h3>Household Essentials</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/soap?lock=29" alt="Personal care products"><h3>Personal Care</h3><span>Explore</span></a>
+      <a href="#products" class="cat"><img src="https://loremflickr.com/400/300/bokchoy?lock=30" alt="Chinese food ingredients"><h3>Chinese Food Ingredients</h3><span>Explore</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="section alt">
+  <div class="container">
+    <div class="head"><h2>Featured Products</h2><p>Our customers' everyday favourites.</p></div>
+    <div class="prod-grid">
+      <article class="card"><span class="off">-18%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img class="cut" src="images/apple.png" alt="Fresh green apple"></div><div class="info"><h3>Fresh Apples</h3><p class="unit">1 kg</p><p class="stars">★★★★☆ <small>4.5</small></p><p class="price">₹180 <del>₹220</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img class="cut" src="images/banana.png" alt="Ripe yellow bananas"></div><div class="info"><h3>Bananas</h3><p class="unit">1 dozen</p><p class="stars">★★★★★ <small>4.7</small></p><p class="price">₹60</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="off">-10%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img class="cut" src="images/tomato.png" alt="Fresh red tomato"></div><div class="info"><h3>Tomatoes</h3><p class="unit">1 kg</p><p class="stars">★★★★☆ <small>4.3</small></p><p class="price">₹36 <del>₹40</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/potato?lock=44" alt="Farm potatoes"></div><div class="info"><h3>Potatoes</h3><p class="unit">1 kg</p><p class="stars">★★★★☆ <small>4.4</small></p><p class="price">₹35</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="off">-21%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/rice?lock=45" alt="Long grain basmati rice"></div><div class="info"><h3>Basmati Rice</h3><p class="unit">5 kg</p><p class="stars">★★★★★ <small>4.8</small></p><p class="price">₹549 <del>₹699</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/milk?lock=46" alt="Fresh milk in a glass"></div><div class="info"><h3>Fresh Milk</h3><p class="unit">1 litre</p><p class="stars">★★★★★ <small>4.6</small></p><p class="price">₹68</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="off">-12%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/bread?lock=47" alt="Freshly baked bread loaf"></div><div class="info"><h3>Bread</h3><p class="unit">400 g</p><p class="stars">★★★★☆ <small>4.4</small></p><p class="price">₹44 <del>₹50</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/eggs?lock=48" alt="Farm fresh eggs"></div><div class="info"><h3>Farm Eggs</h3><p class="unit">12 pieces</p><p class="stars">★★★★☆ <small>4.5</small></p><p class="price">₹84</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="off">-13%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/oil?lock=49" alt="Bottle of cooking oil"></div><div class="info"><h3>Cooking Oil</h3><p class="unit">1 litre</p><p class="stars">★★★★☆ <small>4.3</small></p><p class="price">₹165 <del>₹190</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/biscuits?lock=50" alt="Crunchy biscuits"></div><div class="info"><h3>Biscuits</h3><p class="unit">250 g</p><p class="stars">★★★★☆ <small>4.2</small></p><p class="price">₹40</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="off">-15%</span><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/cola?lock=51" alt="Chilled soft drink bottle"></div><div class="info"><h3>Soft Drinks</h3><p class="unit">2 litre</p><p class="stars">★★★★☆ <small>4.1</small></p><p class="price">₹85 <del>₹100</del></p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+      <article class="card"><span class="heart" aria-label="Add to wishlist">♡</span><div class="img"><img src="https://loremflickr.com/400/300/noodles?lock=52" alt="Bowl of instant noodles"></div><div class="info"><h3>Instant Noodles</h3><p class="unit">Pack of 5</p><p class="stars">★★★★☆ <small>4.4</small></p><p class="price">₹70</p><a href="#products" class="btn small full">Add to Cart</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="fruits" class="section">
+  <div class="container">
+    <div class="head"><h2>Fresh Fruit Collection</h2><p>Seasonal and exotic fruits, picked ripe and handled with care.</p></div>
+    <div class="tiles">
+      <a href="#products" class="tile"><div class="tbg"><img src="images/lemon.png" alt="Fresh lemons with a cut slice"></div><h3>Lemons</h3><p>₹40 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/grapefruit.png" alt="Fresh grapefruit with a cut slice"></div><h3>Grapefruit</h3><p>₹180 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/durian.png" alt="Fresh durian with a cut slice"></div><h3>Durian</h3><p>₹450 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/fig.png" alt="Fresh fresh figs with a cut slice"></div><h3>Fresh Figs</h3><p>₹199 <small>/ 250 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/tangerine.png" alt="Fresh tangerines with a cut slice"></div><h3>Tangerines</h3><p>₹90 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/kiwi.png" alt="Fresh kiwi with a cut slice"></div><h3>Kiwi</h3><p>₹99 <small>/ 3 pieces</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/orange.png" alt="Fresh oranges with a cut slice"></div><h3>Oranges</h3><p>₹80 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/mango.png" alt="Fresh mangoes with a cut slice"></div><h3>Mangoes</h3><p>₹140 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/lychee.png" alt="Fresh lychee with a cut slice"></div><h3>Lychee</h3><p>₹160 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/feijoa.png" alt="Fresh feijoa with a cut slice"></div><h3>Feijoa</h3><p>₹260 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/lime.png" alt="Fresh limes with a cut slice"></div><h3>Limes</h3><p>₹50 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/blood-orange.png" alt="Fresh blood oranges with a cut slice"></div><h3>Blood Oranges</h3><p>₹220 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/banana.png" alt="Fresh bananas with a cut slice"></div><h3>Bananas</h3><p>₹60 <small>/ 1 dozen</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/pear.png" alt="Fresh pears with a cut slice"></div><h3>Pears</h3><p>₹170 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/peach.png" alt="Fresh peaches with a cut slice"></div><h3>Peaches</h3><p>₹120 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/apple.png" alt="Fresh green apples with a cut slice"></div><h3>Green Apples</h3><p>₹180 <small>/ 1 kg</small></p></a>
+    </div>
+  </div>
+</section>
+
+<section id="vegetables" class="section alt">
+  <div class="container">
+    <div class="head"><h2>Farm-Fresh Vegetables</h2><p>Crisp, clean and delivered the same day.</p></div>
+    <div class="tiles">
+      <a href="#products" class="tile"><div class="tbg"><img src="images/tomato.png" alt="Fresh red tomato"></div><h3>Tomatoes</h3><p>₹36 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/broccoli.png" alt="Fresh green broccoli"></div><h3>Broccoli</h3><p>₹70 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/cauliflower.png" alt="Fresh white cauliflower"></div><h3>Cauliflower</h3><p>₹45 <small>/ 1 piece</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/bell-pepper.png" alt="Fresh red bell pepper"></div><h3>Red Bell Pepper</h3><p>₹110 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/peas.png" alt="Fresh green peas in a pod"></div><h3>Green Peas</h3><p>₹60 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/red-chilli.png" alt="Fresh red chilli"></div><h3>Red Chillies</h3><p>₹40 <small>/ 250 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/green-chilli.png" alt="Fresh green chilli"></div><h3>Green Chillies</h3><p>₹20 <small>/ 250 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/cucumber.png" alt="Fresh green cucumber"></div><h3>Cucumber</h3><p>₹40 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/bottle-gourd.png" alt="Fresh light green bottle gourd"></div><h3>Bottle Gourd</h3><p>₹35 <small>/ 1 piece</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/carrot.png" alt="Fresh orange carrot"></div><h3>Carrots</h3><p>₹55 <small>/ 1 kg</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/brinjal.png" alt="Fresh purple brinjal"></div><h3>Brinjal (Eggplant)</h3><p>₹30 <small>/ 500 g</small></p></a>
+      <a href="#products" class="tile"><div class="tbg"><img src="images/onion.png" alt="Fresh golden onion"></div><h3>Onions</h3><p>₹40 <small>/ 1 kg</small></p></a>
+    </div>
+  </div>
+</section>
+
+<section id="offers" class="section">
+  <div class="container">
+    <div class="head"><h2>Today's Best Deals</h2><p>Freshness at the Best Prices</p></div>
+    <div class="deal-grid">
+      <a href="#products" class="deal fruit"><img src="images/orange.png" alt="Juicy oranges"><div><h3>Up to 30% OFF</h3><p>Seasonal fruits, picked this morning.</p><span class="btn small">Shop Deals</span></div></a>
+      <a href="#products" class="deal dark fruit"><img src="images/bell-pepper.png" alt="Fresh red bell pepper"><div><h3>Flat 20% OFF</h3><p>Fresh vegetables for the whole week.</p><span class="btn small">Shop Deals</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="head"><h2>Why Choose FreshMart?</h2><p>Simple promises we keep on every order.</p></div>
+    <div class="why-grid">
+      <div class="why"><span>🥬</span><h3>100% Fresh Products</h3><p>Sourced daily from trusted farms.</p></div>
+      <div class="why"><span>💰</span><h3>Affordable Prices</h3><p>Everyday low prices and weekly deals.</p></div>
+      <div class="why"><span>✅</span><h3>Quality Assured</h3><p>Every item checked before packing.</p></div>
+      <div class="why"><span>🚚</span><h3>Fast Home Delivery</h3><p>Delivered to your door, on time.</p></div>
+      <div class="why"><span>🔒</span><h3>Secure Payments</h3><p>Safe and convenient ways to pay.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container about">
+    <img src="https://loremflickr.com/700/500/market?lock=71" alt="Fresh produce at a grocery market">
+    <div>
+      <h2>About FreshMart</h2>
+      <p>FreshMart makes family grocery shopping simple. We bring you fresh produce, trusted everyday brands and household essentials at honest prices, so you spend less time shopping and more time with the people you cook for.</p>
+      <p>From farm-fresh fruits and vegetables to pantry staples, every product is chosen with care and delivered with convenience in mind.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="section alt">
+  <div class="container">
+    <div class="head"><h2>What Our Customers Say</h2><p>Sample reviews for design purposes.</p></div>
+    <div class="rev-grid">
+      <blockquote class="rev"><p class="stars">★★★★★</p><p>The fruits are always fresh and delivery is quick. My family loves it.</p><cite>Ananya Reddy</cite></blockquote>
+      <blockquote class="rev"><p class="stars">★★★★★</p><p>Great prices on rice and oil. Everything arrived well packed.</p><cite>Rahul Sharma</cite></blockquote>
+      <blockquote class="rev"><p class="stars">★★★★☆</p><p>Easy to browse and the vegetables stay fresh for days.</p><cite>Meera Iyer</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container contact">
+    <div>
+      <h2>Contact Us</h2>
+      <ul class="info-list">
+        <li>📞 [Your phone number]</li>
+        <li>✉️ [your-email@example.com]</li>
+        <li>📍 [Your store address, city, PIN code]</li>
+        <li>🕒 Mon–Sun: 7:00 AM – 10:00 PM</li>
+      </ul>
+      <div class="social"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="X">x</a><a href="#contact" aria-label="YouTube">yt</a></div>
+    </div>
+    <form class="form">
+      <label for="n">Name</label><input id="n" type="text" placeholder="Your name">
+      <label for="e">Email</label><input id="e" type="email" placeholder="you@example.com">
+      <label for="m">Message</label><textarea id="m" rows="4" placeholder="How can we help?"></textarea>
+      <button type="button" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div><a href="#home" class="logo light"><span>Fresh<b>Mart</b></span></a><p>Fresh groceries, quality products and affordable prices for every family.</p></div>
+    <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+    <div><h4>Popular Categories</h4><a href="#categories">Fresh Fruits</a><a href="#categories">Vegetables</a><a href="#categories">Dairy Products</a><a href="#categories">Bakery</a></div>
+    <div><h4>Customer Support</h4><a href="#contact">Help Centre</a><a href="#contact">Delivery Info</a><a href="#contact">Returns</a><a href="#contact">Privacy Policy</a></div>
+    <div><h4>Newsletter</h4><p>Get weekly deals in your inbox.</p><form class="news"><input type="email" placeholder="Your email" aria-label="Email for newsletter"><button type="button">Join</button></form></div>
+  </div>
+  <p class="copy">© 2026 FreshMart Grocery Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
